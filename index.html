@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>GPI STJ</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://docs.getgrist.com/grist-plugin-api.js"></script>
+
+</head>
+
+<body>
+
+<div id="app">
+
+<aside class="sidebar">
+
+<div class="logo">
+
+🛡️
+
+<h2>GPI STJ</h2>
+
+</div>
+
+<nav>
+
+<button class="menu active">
+
+🏠 Tableau de bord
+
+</button>
+
+<button class="menu">
+
+📂 Dossiers
+
+</button>
+
+<button class="menu">
+
+📅 Convocations
+
+</button>
+
+<button class="menu">
+
+📦 Archives
+
+</button>
+
+<button class="menu">
+
+📊 Statistiques
+
+</button>
+
+<button class="menu">
+
+⚙ Paramètres
+
+</button>
+
+</nav>
+
+</aside>
+
+
+<main>
+
+<header>
+
+<h1>
+
+Gestion des Procédures
+
+</h1>
+
+<input
+id="search"
+placeholder="Rechercher une UNA...">
+
+</header>
+
+
+<section class="stats">
+
+<div class="stat">
+
+<h2 id="nbDossiers">0</h2>
+
+<p>Dossiers</p>
+
+</div>
+
+<div class="stat">
+
+<h2 id="nbRetards">0</h2>
+
+<p>Retards</p>
+
+</div>
+
+<div class="stat">
+
+<h2 id="nbSurveillance">0</h2>
+
+<p>À surveiller</p>
+
+</div>
+
+<div class="stat">
+
+<h2 id="nbConvocations">0</h2>
+
+<p>Convocations</p>
+
+</div>
+
+</section>
+
+
+<section id="cards">
+
+</section>
+
+</main>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
